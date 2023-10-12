@@ -3,7 +3,6 @@ I'm done a travel and tourism project called "TOURISMO," utilizing HTML, CSS, Ja
 ![Screenshot 2023-03-25 084244](https://github.com/Tirthp1/travelwebsite/assets/100027931/3ce1d5ec-9efc-4de2-9827-af37953ef3b6)
 ![Screenshot 2023-03-25 084326](https://github.com/Tirthp1/travelwebsite/assets/100027931/001e52bc-5529-4b01-8d3e-ec4a5d0558f7)
 ![Screenshot 2023-03-25 084415](https://github.com/Tirthp1/travelwebsite/assets/100027931/a518cbd3-39b4-4b84-9422-ebba7cf6d055)
-![Screenshot 2023-03-25 084507](https://github.com/Tirthp1/travelwebsite/assets/100027931/65860f66-c740-45ac-af4d-150d69a72e80)
 
 
 #html #css
