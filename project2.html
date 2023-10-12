@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script>
+
+        function func() {
+            d1 = document.getElementById('r1').value;
+            d2 = document.getElementById('r1').value;
+            d3 = document.getElementById('r1').value;
+            pat = /\W/;
+            if (pat.test(d1)) {
+                alert("ENTER VALID DETAILS")
+            }
+        }
+        function func1() {
+            d1 = document.getElementById('r4').value;
+            d2 = document.getElementById('r5').value;
+            pat1 = /[A-z]+$/;
+            pat2 = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (!pat1.test(d1)) {
+                alert("incorrect name")
+            }
+            if (!pat2.test(d2)) {
+                alert("incorrect email")
+            }
+
+        }
+    </script>
+    <title>project2</title>
+</head>
+
+<body data-bs-scroll="spy">
+    <!-- #navbar  -->
+    <navbar class="navbar navbar-expand-xl bg-dark">
+        <div class="container-fluid">
+            <!-- <img src="logo_2.jpg" alt="error" height="100px" width="100px"> -->
+            <h1 style="font-family:Brush Script MT;color:white;font-size:45px;">TOURISMO</h1>
+            <button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#d1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="d1">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="margin-right:35px"><a href="#s1" class="nav-link text-white ">HOME</a></li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s2" class="nav-link text-white ">About</a></li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s3" class="nav-link text-white ">Popular
+                        Places</a></li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s4" class="nav-link text-white ">Services</a>
+                </li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s5" class="nav-link text-white ">Teams</a></li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s6" class="nav-link text-white ">Offers</a>
+                </li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s7" class="nav-link text-white ">Reviews</a>
+                </li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s8" class="nav-link text-white ">Recent
+                        blogs</a></li>
+                <li class="nav-item" style="margin-right:35px"><a href="#s9" class="nav-link text-white ">Contact-us</a>
+                </li>
+            </ul>
+        </div>
+
+    </navbar>
+    <div></div>
+    <!-- #carousel -->
+    <div id="s1">
+        <div id="demo" class="carousel slide mx auto d-block">
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#demo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bg6.jpg" alt="error" class="d-block w-100" height="700px"
+                        style="background-color:black;opacity:0.8;">
+                    <div class="carousel-caption" style="margin-bottom:60px;">
+                        <p style="font-size:40px;color:black;font-family:High Tower Text;">“FIND THE PERFECT DEAL FOR
+                            YOUR NEXT TRIP”</p>
+                        <button class="btn btn-primary">READ MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="g2.jpg" alt="error" class="d-block w-100" height="700px"
+                        style="background-color:black;opacity:0.8;">
+                    <div class="carousel-caption" style="margin-bottom:60px;">
+                        <p style="font-size:40px;color:black;font-family:High Tower Text;">“FIND THE PERFECT DEAL FOR
+                            YOUR NEXT TRIP”</p>
+                        <button class="btn btn-primary">READ MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="g3.jpg" alt="error" class="d-block w-100" height="700px"
+                        style="background-color:black;opacity:0.8;">
+                    <div class="carousel-caption" style="margin-bottom:60px;">
+                        <p style="font-size:40px;color:black;font-family:High Tower Text">“FIND THE PERFECT DEAL FOR
+                            YOUR NEXT TRIP”</p>
+                        <button class="btn btn-primary">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding:15px;background-color:black;">
+        <div class="row">
+            <div class="col"><input type="text" placeholder="Search location" class="form-control" id="r1"></div>
+            <div class="col"><input type="text" placeholder="check-in date" class="form-control" id="r2"></div>
+            <div class="col"><input type="text" placeholder="check-out-date" class="form-control" id="r3"></div>
+            <div class="col"><select name="" id="" class="form-control">
+                    <option value="">Guest</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3+</option>
+                </select></div>
+            <div class="col"><input type="submit" value="submit" class="btn btn-primary" onclick="func()"></div>
+        </div>
+    </div>
+    <!-- #section1 -->
+    <div class="container" style="margin-top:40px" id="s2">
+        <div class="row container-fluid" style="margin-top:30px">
+            <div class="col container-fluid">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;">Welcome to Tourismo</h1>
+            </div>
+        </div>
+        <div class="row container-fluid" style="margin-top:30px">
+            <div class="col container">
+                <div class="container"
+                    style="align-items: center;border:5px solid black;margin-top:80px;border-radius:30px;">
+                    <h2 class="text-black" align="center">Culture</h2>
+                    <p>
+                        “Culture is a way of coping with the world by defining it in detail.” by Malcolm Bradbury.
+                    </p>
+                </div>
+            </div>
+            <div class="col container">
+                <div class="container">
+                    <img src="i6.jpg" alt="error" height="300px" width="500px" class="img">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row container-fluid">
+            <div class="col container">
+                <div class="container">
+                    <img src="i3.jpg" alt="error" height="300px" width="500px" class="img">
+                </div>
+            </div>
+            <div class="col container">
+                <div class="container"
+                    style="align-items: center;border:5px solid black;margin-top:80px;border-radius:30px;">
+                    <h2 class="text-black" align="center">History</h2>
+                    <p>
+                        “History is not the past but a map of the past, drawn from a particular point of view, to be
+                        useful to the modern traveller.”
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row container-fluid">
+            <div class="col container">
+                <div class="container"
+                    style="align-items: center;border:5px solid black;margin-top:80px;border-radius:30px;">
+                    <h2 class="text-black" align="center">Nature</h2>
+                    <p>
+                        “Looking at beauty in the world is the first step of purifying the mind.” - Amit Ray.
+                    </p>
+                </div>
+            </div>
+            <div class="col container">
+                <div class="container">
+                    <img src="i1.jpg" alt="error" height="300px" width="500px" class="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #section2-->
+    <div class="container" style="margin-top:70px" id="s3">
+        <div class="row container" style="margin-top:25px;margin-bottom:30px;">
+            <div class="col">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;">POPULAR PLACES</h1>
+            </div>
+        </div>
+        <div class="row container-fluid" style="margin-top:40px;">
+            <div class="col m-1">
+                <img src="ps1.jpg" alt="" height="230px" weight="250px">
+            </div>
+            <div class="col m-1">
+                <img src="ps2.jpg" alt="" height="230px" weight="250px">
+            </div>
+            <div class="col m-1">
+                <img src="ps3.jpg" alt="" height="230px" weight="250px">
+            </div>
+        </div>
+        <hr>
+        <div class="row container-fluid">
+            <div class="col m-1">
+                <img src="i7.jpg" alt="" height="230px" weight="250px">
+            </div>
+            <div class="col m-1">
+                <img src="ps5.jpg" alt="" height="230px" weight="250px">
+            </div>
+            <div class="col m-1">
+                <img src="ps6.jpg" alt="" height="230px" weight="250px">
+            </div>
+        </div>
+    </div>
+
+    <!-- section3 -->
+    <div class="container" style="margin-top:100px;" id="s4">
+        <div class="row">
+            <div class="col-lg-4" style="padding-top:100px;">
+                <div class="section-title">
+                    <h2 style="font-family:Cosmic Sans MS;font-size:55px;">Services We Provide</h2>
+                    <p>
+                        Tourismo website provide best food facilities,adventure activities like mountain-climbing and
+                        beach tour
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-stretch"
+                        style="border:4px solid black;border-radius:15px;background-color: skyblue;">
+                        <div class="icon-circle purple">
+                            <div class="icon" style="font-size:50px;text-align: center;">
+                                <i class="fas fa-drumstick-bite"></i>
+                            </div>
+                            <h4 class="text-white">Good Food</h4>
+                            <p>All type of foods provide by the us according to customer demand</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
+                        style="border:4px solid black;border-radius:15px;background-color: rgb(234, 234, 84);">
+                        <div class="icon-circle pink">
+                            <div class="icon" style="font-size:50px;text-align: center;">
+                                <i class="fas fa-umbrella-beach"></i>
+                            </div>
+                            <h4 class="text-white">Beach Resort</h4>
+                            <p>On beach tour there are many activities provide by us</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4"
+                        style="border:4px solid black;border-radius:15px;background-color: rgb(234, 234, 84);">
+                        <div class="icon-circle yellow">
+                            <div class="icon" style="font-size:50px;text-align: center;">
+                                <i class="fas fa-hiking"></i>
+                            </div>
+                            <h4 class="text-white">Mountain-climbing</h4>
+                            <p>mountain-climbing and tant facilities are also available</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-stretch mt-4"
+                        style="border:4px solid black;border-radius:15px;background-color: skyblue;">
+                        <div class="icon-circle blue">
+                            <div class="icon" style="font-size:50px;text-align: center;">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h4 class="text-white">Hot Air Ballon</h4>
+                            <p>Adventure activity like air ballon,paragliding,ropeway,zipline and etc.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section4 -->
+    <div class="container" style="margin-top:80px" id="s5">
+        <div class="row container-fluid" style="margin-top:20px;">
+            <div class="col container">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;">TEAMS</h1>
+                <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt numquam
+                    deserunt nisi, voluptatibus quos consequatur accusantium dolor non reprehenderit!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top:40px;">
+        <div class="row container-fluid">
+            <div class="col m-1">
+                <img src="person8.jpg" alt="" height="170px" weight="220px" style="border:3px solid black">
+                <h1 align="center">abc def</h1>
+            </div>
+            <div class="col m-1">
+                <img src="person2.jpg" alt="" height="170px" weight="220px" style="border:3px solid black">
+                <h1 align="center">lorem ghi</h1>
+            </div>
+            <div class="col m-1">
+                <img src="person6.jpg" alt="" height="170px" weight="220px" style="border:3px solid black">
+                <h1 align="center">lorem hji</h1>
+            </div>
+            <div class="col m-1">
+                <img src="person4.jpg" alt="" height="170px" weight="220px" style="border:3px solid black">
+                <h1 align="center">lorem jkl</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- section5 -->
+    <div class="container" style="margin-top:80px" id="s6">
+        <div class="row container-fluid" style="margin-top:20px;">
+            <div class="col">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;">OFFERS !!!</h1>
+            </div>
+        </div>
+        <div class="row container-fluid" style="margin-top:40px;">
+            <div class="col m-1">
+                <img src="of.jpg" alt="" height="370px" weight="520px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, soluta?</p>
+                <pre>RS.20000</pre>
+                <div><button class="btn btn-primary " style="width:550px">buy offer</button></div>
+            </div>
+            <div class="col m-1">
+                <img src="of1.jpg" alt="" height="370px" weight="520px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, soluta?</p>
+                <pre>RS.40000</pre>
+                <div><button class="btn btn-primary " style="width:550px">buy offer</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section6 -->
+    <div class="container" style="margin-top:80px" id="s7">
+        <div class="row">
+            <div class="col">
+                <h1 style="font-family:Cosmic Sans MS;font-size:55px;margin-top:75px" align="center">HAPPY CUSTOMERS
+                </h1>
+            </div>
+        </div>
+        <div class="row" style="margin-top:40px;">
+            <div class="col">
+                <pre>20/3/2021</pre>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolores vel, repellendus eos totam
+                    vitae.</p>
+                <div class="row">
+                    <div class="col">
+                        <img src="person2.jpg" alt="error" height="50px" width="50px" style="border-radius:50%">
+                    </div>
+                    <div class="col">
+                        <p>KRUNAL (MUMBAI)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <pre>7/7/2022</pre>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque corporis illo in voluptates
+                    officiis.</p>
+                <div class="row">
+                    <div class="col">
+                        <img src="person4.jpg" alt="error" height="50px" width="50px" style="border-radius:50%">
+                    </div>
+                    <div class="col">
+                        <p>JESIKA (DELHI)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section7 -->
+    <div class="container" style="margin-top:80px" id="s8">
+        <div class="row container-fluid">
+            <div class="col">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;margin-top:55px">RECENT BLOGS</h1>
+            </div>
+        </div>
+        <div class="row container-fluid" style="margin-top:40px;">
+            <div class="col m-1">
+                <img src="i4.jpg" alt="" height="230px" weight="250px">
+                <pre>11 JANUARY</pre>
+                <p>SOUTH INDIA (KERLA)</p>
+            </div>
+            <div class="col m-1">
+                <img src="i5.jpg" alt="" height="230px" weight="250px">
+                <pre>20 FEBRUARY</pre>
+                <p>EAST INDIA (ASSAM)</p>
+            </div>
+            <div class="col m-1">
+                <img src="ps4.jpg" alt="" height="230px" weight="250px">
+                <pre>15 MARCH</pre>
+                <p>NORTH INDIA(RAJSTHAN)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section8 -->
+    <div class="container" style="margin-top:75px" id="s9">
+        <div class="row">
+            <div class="col">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;">CONTACT US</h1>
+                <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores pariatur
+                    expedita velit alias eaque.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top:40px;">
+            <div class="col">
+                <div class="row">
+                    <div class="col m-2" style="border:3px solid black;border-radius:40px;margin:50px">
+                        <div class="icon-box">
+                            <i class="fas fa-share"></i>
+                            <h3>Social Profiles</h3>
+                            <div class="social-links" class="justify-content-center">
+                                <a href="#" class="twitter" style="font-size:50px">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="facebook" style="font-size:50px">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="instagram" style="font-size:50px">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="linkedin" style="font-size:50px">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m-2" style="border:3px solid black;border-radius:40px">
+                        <div class="col-md-6" style="margin:50px">
+                            <div class="icon-box mt-4">
+                                <i class="fas fa-envelope"></i>
+                                <h3>Email Us</h3>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m-2" style="border:3px solid black;border-radius:40px">
+                        <div class="col-md-6" style="margin:50px">
+                            <div class="icon-box mt-4">
+                                <i class="fas fa-phone"></i>
+                                <h3>24/7 support</h3>
+                                <p>+55 1234 5678</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="border:3px solid black;border-radius:40px;padding:20px">
+                <form action="">
+                    <div class="row">
+                        <hr>
+                        <div class="col"><input type="text" placeholder="enter name" class="form-control" id="r4"></div>
+                        <div class="col"><input type="email" placeholder="enter name" class="form-control" id="r5">
+                        </div>
+                        <hr>
+                        <label>MESSAGE : <textarea class="form-control"></textarea> </label>
+                        <hr>
+                        <button class="btn btn-primary" onclick="func1()">SEND MESSAGE</button>
+                        <hr>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="height:250px;background-color:rgb(85, 197, 242);margin-top:75px">
+        <div class="row" style="margin-top:20px;">
+            <div class="col">
+                <h1 align="center" style="font-family:Cosmic Sans MS;font-size:55px;">Join over new center</h1>
+            </div>
+        </div>
+        <div class="row" style="margin:10px">
+            <div class="col">
+                <div class="row" style="width:800px">
+                    <div class="col"><input type="text" class="form-control"></div>
+                    <div class="col"><button class="btn btn-primary">Subscribe</button></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <p>©CopyrightTourismo .All Rights Reserved</p>
+            </div>
+            <div class="col">
+                <p>Designed byLorem Ipsum</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
